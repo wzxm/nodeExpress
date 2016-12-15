@@ -3,16 +3,16 @@
 /**
  * Module dependencies.
  */
-/* 引入我们上面导出的app实例 */
+
 var app = require('../app');
-var debug = require('debug')('blog:server');
+var debug = require('debug')('nodeexpress:server');
 var http = require('http');
 
 /**
  * Get port from environment and store in Express.
  */
-/* 设置端口号 */
-var port = normalizePort(process.env.PORT || '80');
+
+var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 /**
